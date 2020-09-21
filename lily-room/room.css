@@ -1,0 +1,28 @@
+.content{
+  padding: 100px 100px;
+  width:100%;
+  max-width:700px;
+  margin-bottom: 40px;
+
+}
+
+#intro {
+  background-color: rgba(107,81,82,0.5);
+  color:white;
+}
+
+.big-projects a{
+
+  color:rgb(150,84,84);
+  font-size: 2em;
+  margin-right: 100px;
+  margin-bottom: 40px;
+
+}
+
+.small-projects a{
+  color:rgb(177,122,125);
+  font-size: 1.5em;
+  margin-right:80px;
+  margin-left: 10px;
+}
