@@ -1,28 +1,64 @@
 .content{
+
   padding: 100px 100px;
   width:100%;
-  max-width:700px;
-  margin-bottom: 40px;
+  max-width:1200px;
+  margin-bottom: 60px;
 
 }
 
-#intro {
+#intro{
   background-color: rgba(107,81,82,0.5);
+  text-align: center;
   color:white;
+  margin-bottom: 50px;
 }
+
+/* #pA a{
+  width:30px;
+  height:70px;
+  background-image: url('player1.jpg');
+}
+
+#pB a{
+  width:30px;
+  height:70px;
+  background-image: url('player2.jpg');
+}
+
+#pC a{
+  width:30px;
+  height:70px;
+  background-image: url('player3.jpg');
+} */
+
 
 .big-projects a{
-
+  /* text-align: center; */
   color:rgb(150,84,84);
   font-size: 2em;
-  margin-right: 100px;
-  margin-bottom: 40px;
+  margin-right: 270px;
+  margin-bottom: 1000px;
+  width:540px;
+  height:917px;
+  background-image: url('player1.jpg')
+
+
 
 }
+
+
+
+
+
 
 .small-projects a{
   color:rgb(177,122,125);
+  background-image: url('m1.png');
   font-size: 1.5em;
-  margin-right:80px;
-  margin-left: 10px;
+  text-align: center;
+  margin-right:120px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom:30px;
 }

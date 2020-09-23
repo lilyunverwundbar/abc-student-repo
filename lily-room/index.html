@@ -11,27 +11,33 @@
 
     <div class="content">
 
-      <p id="intro">Welcome to Lily's Space</p>
+      <p id="intro">Welcome to Lily's Space--Be Patient!</p>
 
 
-      <div class="big-projects" id="big">
-        <a href=“#”>project A</a>
-        <a href="#">project B</a>
-        <a href="#">project C</a>
+
+      <div class="big-projects" onmouseover="floatAround(this)" margin="200px 100px">
+        <a href=“#” id ='pA'>project A</a>
+        <a href="#" id = 'pB'>project B</a>
+        <a href="#" id = 'pC'>project C</a>
       </div>
 
-      <div class="small-projects">
-        <a class="margin-left-10" href="mini-project-1/index.html">Mini Project #1</a>
-        <a class="margin-left-10" href="#">Mini Project #2</a>
-        <a class="margin-left-10" href="#">Mini Project #3</a>
-        <a class="margin-left-10" href="#">Mini Project #4</a>
-        <a class="margin-left-10" href="#">Mini Project #5</a>
-        <a class="margin-left-10" href="#">Mini Project #6</a>
-        <a class="margin-left-10" href="#">Mini Project #7</a>
+      <div class="small-projects" onmouseover="changeColor(this)" onmouseout='changeColor(this)' margin='200px 100px 100px 100px'>
+        <a class="margin-left-10" id ='m1' href="mini-project-1/index.html">Mini Project #1</a>
+        <a class="margin-left-10" id = 'm2' href="#">Mini Project #2</a><br>
+        <a class="margin-left-10" id = 'm3' href="#">Mini Project #3</a>
+        <a class="margin-left-10" id = 'm4' href="#">Mini Project #4</a><br>
+        <a class="margin-left-10" id = 'm5' href="#">Mini Project #5</a>
+        <a class="margin-left-10" id = 'm6' href="#">Mini Project #6</a><br>
+        <a class="margin-left-10" id = 'm7' href="#">Mini Project #7</a>
+
 
       </div>
 
     </div>
+
+    <script type="text/javascript" src='room.js'>
+
+    </script>
 
   </body>
 </html>
