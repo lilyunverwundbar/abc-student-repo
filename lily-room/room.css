@@ -38,11 +38,13 @@
   /* text-align: center; */
   color:rgb(150,84,84);
   font-size: 2em;
-  margin-right: 270px;
+  margin-left: 40px;
+  margin-right: 200px;
   margin-bottom: 1000px;
-  width:540px;
-  height:917px;
-  background-image: url('player1.jpg');
+  width:auto;
+  height:auto;
+   background-image: url('player1.jpg');
+  background-color: pink;
   font-family:"Jazz LET",fantasy;
 
 
@@ -58,12 +60,49 @@
   width:200px;
   height:200px;
   color:rgb(177,122,125);
-  background-image: url('m1.png');
+  /* background-image: url('m1.png'); */
   font-size: 1.5em;
-  text-align: center;
-  margin-right:120px;
+
+  /* margin-right:120px;
   margin-left: 130px;
   margin-top: 100px;
-  margin-bottom:30px;
+  margin-bottom:30px; */
   font-family:"Jazz LET",fantasy;
+  margin-bottom:50px;
+}
+
+#m1{
+  background-image: url('m1.png');
+  width:auto;
+  height:auto;
+  margin-right: 400px;
+  margin-bottom: 100px;
+  margin-left:80px;
+
+}
+
+#m3{
+  background-image: url('m3.png');
+  margin-right: 300px;
+  margin-bottom:50px;
+}
+
+#m5{
+  background-image: url('m5.png');
+  margin-right:240px;
+  margin-left: 40px;
+}
+
+#m7{
+  background-image: url('m7.png');
+}
+
+#m2{
+  background-image: url('m2.png');
+}
+#m4{
+  background-image: url('m4.png');
+}
+#m6{
+  background-image: url('m6.png');
 }

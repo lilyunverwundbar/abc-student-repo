@@ -12,6 +12,6 @@ function changeColor(obj){
   if (obj.style.color != 'orange'){
     obj.style.color = 'orange';
   }else{
-    obj.style.color = rgb(177,122,125);
+    obj.style.color = 'rgb(177,122,125)';
   }
 }
