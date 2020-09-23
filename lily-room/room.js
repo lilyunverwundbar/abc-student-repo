@@ -9,9 +9,9 @@ function floatAround(obj){
 
 function changeColor(obj){
   obj.style.marginTop = '100px';
-  if (obj.style.color != orange){
-    obj.style.color = orange;
+  if (obj.style.color != 'orange'){
+    obj.style.color = 'orange';
   }else{
-    obj.style.color = (177,122,125);
+    obj.style.color = rgb(177,122,125);
   }
 }

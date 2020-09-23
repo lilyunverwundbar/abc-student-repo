@@ -1,5 +1,5 @@
 .content{
-
+  font-family: "Chalkduster",fantasy;
   padding: 100px 100px;
   width:100%;
   max-width:1200px;
@@ -8,6 +8,7 @@
 }
 
 #intro{
+  font-size: 1.4em;
   background-color: rgba(107,81,82,0.5);
   text-align: center;
   color:white;
@@ -41,7 +42,8 @@
   margin-bottom: 1000px;
   width:540px;
   height:917px;
-  background-image: url('player1.jpg')
+  background-image: url('player1.jpg');
+  font-family:"Jazz LET",fantasy;
 
 
 
@@ -53,12 +55,15 @@
 
 
 .small-projects a{
+  width:200px;
+  height:200px;
   color:rgb(177,122,125);
   background-image: url('m1.png');
   font-size: 1.5em;
   text-align: center;
   margin-right:120px;
-  margin-left: 100px;
+  margin-left: 130px;
   margin-top: 100px;
   margin-bottom:30px;
+  font-family:"Jazz LET",fantasy;
 }
