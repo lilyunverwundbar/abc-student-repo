@@ -1,0 +1,374 @@
+body{
+  background-color: rgb(137, 171, 240);
+}
+.trigger{
+  width:100px;
+  height:200px;
+  background-color: yellow;
+
+}
+.box{
+  position: relative;
+  width:100px;
+  height:40px;
+  background-color: purple;
+  margin-top:40%;
+  animation-name: bounce;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+
+}
+
+.box-1{
+  position:relative;
+  width:40px;
+  height:40px;
+  background-color: orange;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  /* animation-direction: alternate-reverse; */
+  opacity:0;
+  animation-delay: 3.6s;
+  animation-timing-function:linear;
+
+}
+
+#frequencyInput{
+  -webkit-appearance: slider-vertical;
+  position:absolute;
+  width:10px;
+  height:100px;
+  left:20px;
+}
+
+#volumeInput{
+  -webkit-appearance: slider-vertical;
+  position:absolute;
+  width:10px;
+  height:100px;
+  left:100px;
+
+}
+
+#p1{
+  position:absolute;
+  width:300px;
+  height:105px;
+  /* opacity:0; */
+  transform: rotate(20deg);
+  animation-name: splash;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+#p9{
+  position:absolute;
+  width:280px;
+  height:97px;
+  /* opacity:0; */
+  transform: rotate(10deg);
+  animation-name: splash2;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+#p2{
+  position:absolute;
+  width:300px;
+  height:100px;
+  /* opacity:0; */
+  animation-name: splash1;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function: ease-out;
+
+}
+#p3{
+  position:absolute;
+  width:300px;
+  height:300px;
+  /* opacity:0; */
+  animation-name: splash;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+
+#p4{
+  position:absolute;
+  width:300px;
+  height:300px;
+  /* opacity:0; */
+  animation-name: splash2;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+#p5{
+  position:absolute;
+  transform:rotate(10deg);
+  width:280px;
+  height:210px;
+  /* opacity:0; */
+  animation-name: splash2;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+
+#p6{
+  position:absolute;
+  transform:rotate(20deg);
+  width:200px;
+  height:200px;
+  /* opacity:0; */
+  animation-name: splash3;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+
+#p7{
+  position:absolute;
+  transform:rotate(40deg);
+  width:280px;
+  height:200px;
+  /* opacity:0; */
+  animation-name: splash4;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+
+#p8{
+  position:absolute;
+  transform:rotate(40deg);
+  width:280px;
+  height:90px;
+  /* opacity:0; */
+  animation-name: splash;
+  animation-iteration-count:infinite;
+  animation-duration: 6s;
+  animation-timing-function:linear;
+
+}
+
+
+
+
+@keyframes bounce{
+  0%{
+    opacity:1;
+    left:0px;
+    transform:rotate(0deg);
+
+  }
+  40%{
+    opacity:1;
+    left:66.6%;
+    transform:rotate(90deg);
+    /* top:0%; */
+
+  }
+  60%{
+    opacity:1;
+    left:100%;
+    transform:rotate(180deg);
+    /* top: 50%; */
+  }
+  80%{
+    opacity:1;
+    left:50%;
+    /* transform:rotate(270deg); */
+    /* top:98%; */
+  }
+  100%{
+    opacity:1;
+    left:0%;
+    transform:rotate(360deg);
+
+  }
+}
+
+@keyframes bounce1{
+  0%{
+    opacity:1;
+    left:100%;
+    transform:rotate(0deg);
+
+  }
+  40%{
+    opacity:1;
+    left:66.6%;
+    transform:rotate(90deg);
+    /* top:0%; */
+
+  }
+  60%{
+    opacity:1;
+    left:50%;
+
+
+    transform:rotate(180deg);
+    /* top: 50%; */
+  }
+  80%{
+    opacity:1;
+    left:100%;
+    /* transform:rotate(270deg); */
+    /* top:98%; */
+  }
+  100%{
+    opacity:1;
+    left:0px;
+    transform:rotate(360deg);
+
+  }
+}
+
+@keyframes splash{
+  0%{
+    opacity: 0;
+    left:0%;
+
+  }40%{
+    opacity: 0;
+    left:100%;
+  }60%{
+    opacity:1;
+    left: 100%;
+    top:40%;
+
+  }80%{
+    opacity:1;
+    left:50%;
+    top:20%;
+
+  }100%{
+    opacity:1;
+    left:0%;
+    top:0%;
+    /* trasform:rotate(360deg); */
+
+  }
+}
+
+@keyframes splash1{
+  0%{
+    opacity: 0;
+    left:0%;
+
+  }40%{
+    opacity: 0;
+    left:100%;
+  }60%{
+    opacity:1;
+    left: 100%;
+    top:31%;
+
+  }89%{
+    opacity:1;
+    left:0%;
+    top:5%;
+  }90%{
+    opacity:0;
+    left:0%;
+    top:5%;
+  }100%{
+    opacity:0;
+    left:0%;
+    top:5%;
+  }
+}
+
+@keyframes splash2{
+  0%{
+    opacity: 0;
+    left:0%;
+
+  }40%{
+    opacity: 0;
+    left:100%;
+  }60%{
+    opacity:1;
+    left: 100%;
+    top:40%;
+
+  }90%{
+    opacity:1;
+    left:0%;
+    top:5%;
+  }91%{
+    opacity:0;
+    left:0%;
+    top:5%;
+  }100%{
+    opacity:0;
+    left:0%;
+    top:5%;
+  }
+}
+@keyframes splash3{
+  0%{
+    opacity: 0;
+    left:0%;
+
+  }40%{
+    opacity: 0;
+    left:100%;
+  }60%{
+    opacity:1;
+    left: 100%;
+    top:40%;
+
+  }80%{
+    opacity:1;
+    left:40%;
+    top:0%;
+  }81%{
+    opacity:0;
+    left:40%;
+    top:0%;
+  }100%{
+    opacity:0;
+    left:40%;
+    top:0%;
+  }
+}
+@keyframes splash4{
+  0%{
+    opacity: 0;
+    left:0%;
+
+  }40%{
+    opacity: 0;
+    left:100%;
+  }60%{
+    opacity:1;
+    left: 100%;
+    top:40%;
+
+  }80%{
+    opacity:1;
+    left:50%;
+    top:0%;
+  }81%{
+    opacity:0;
+    left:50%;
+    top:0%;
+  }100%{
+    opacity:0;
+    left:50%;
+    top:0%;
+  }
+}
