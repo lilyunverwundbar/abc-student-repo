@@ -1,0 +1,73 @@
+body{
+  /* transition:moveTo 5s; */
+}
+
+#trapezoid{
+  border-top: 60vw solid rgb(89, 89, 87);
+  border-left: 34vh solid transparent;
+  border-right: 34vh solid transparent;
+  height: 0;
+  width: 60vw;
+  position:absolute;
+  top:0px;
+  z-index: 2;
+
+  /* position:absolute; */
+
+}
+
+#sea{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1440px;
+  height:900px;
+  z-index:1;
+
+
+  /* animation-name: move;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; */
+
+}
+
+#anchor{
+  position:absolute;
+  width:60px;
+  height:72px;
+  left:60px;
+  top:20px;
+  z-index:3;
+  animation: scaleandShrink 1.6s infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+#anchor:hover{
+  opacity: 0.5;
+}
+
+@keyframes scaleandShrink {
+  0%{
+    width:60px;
+    height:72px;
+  }50%{
+    width:80px;
+    height:96px;
+
+  }100%{
+    width:60px;
+    height:72px;
+
+  }
+
+}
+
+/* @keyframes move{
+  from{
+    left:0%;
+  }to{
+    left:-840px;600px-1440px
+  }
+} */

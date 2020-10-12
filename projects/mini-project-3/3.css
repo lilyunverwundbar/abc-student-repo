@@ -4,7 +4,14 @@ body{
 .trigger{
   width:100px;
   height:200px;
+  bottom: 5%;
+  animation-name: compress;
   background-color: yellow;
+  position:absolute;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-play-state:paused;
+
 
 }
 .box{
@@ -36,7 +43,7 @@ body{
 
 }
 
-#frequencyInput{
+/* #frequencyInput{
   -webkit-appearance: slider-vertical;
   position:absolute;
   width:10px;
@@ -51,7 +58,7 @@ body{
   height:100px;
   left:100px;
 
-}
+} */
 
 #p1{
   position:absolute;
@@ -99,7 +106,6 @@ body{
   animation-timing-function:linear;
 
 }
-
 #p4{
   position:absolute;
   width:300px;
@@ -123,7 +129,6 @@ body{
   animation-timing-function:linear;
 
 }
-
 #p6{
   position:absolute;
   transform:rotate(20deg);
@@ -136,7 +141,6 @@ body{
   animation-timing-function:linear;
 
 }
-
 #p7{
   position:absolute;
   transform:rotate(40deg);
@@ -149,7 +153,6 @@ body{
   animation-timing-function:linear;
 
 }
-
 #p8{
   position:absolute;
   transform:rotate(40deg);
@@ -164,7 +167,22 @@ body{
 }
 
 
+@keyframes compress{
+  0%{
 
+
+    height:200px;
+
+  }60%{
+    top:inherit;
+
+    height:20px;
+
+  }100%{
+    top:inherit;
+    height:200px;
+  }
+}
 
 @keyframes bounce{
   0%{

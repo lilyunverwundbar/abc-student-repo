@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(161, 160, 156);
+}
+.w{
+  background-color: darkblue;
+  top:30px;
+  position: absolute;
+  width:30px;
+  height:30px;
+}
+
+#window1{
+
+  margin-left:20px;
+
+}
+
+#window2{
+  margin-left:83.3px;
+
+
+}
+
+#window3{
+  left: 156.6px;
+
+}
+
+#window4{
+
+  left:219.9px;
+
+}
+
+#window5{
+  left: 283.2px;/*{239.9+33.3+40}*/
+}
+
+#window6{
+  left: 346.5px;/*{313.2+33.3+40}*/
+}
