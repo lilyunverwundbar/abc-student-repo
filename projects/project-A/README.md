@@ -1,7 +1,7 @@
 #A Cruise with Browser Windows
 ![alt text][logo]
 
-[logo]: https://github.com/lilyunverwundbar/abc-student-repo/projects/project-A/demo.gif "demo"
+[logo]:https://github.com/lilyunverwundbar/abc-student-repo/tree/master/projects/project-A/demo.gif"demo"
 ##Description
 For project A, I used popup windows to make a cruise ship, when you click the anchor, the ship will sail off and make a horn sound. You can also click on the windows on the top two windows and will discover some interesting effect.
 
