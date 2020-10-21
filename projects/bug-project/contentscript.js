@@ -56,12 +56,12 @@ setTimeout(()=>{
   content.innerHTML = letterSpans.join("");
 
 
-  let spanTags = content.getElementsByTagName("span");
-
-  for(let i =0; i< spanTags.length; i+=1){
-    spanTags[i].style.top += 100 + "px";
-
-  }
+  // let spanTags = content.getElementsByTagName("span");
+  //
+  // for(let i =0; i< spanTags.length; i+=1){
+  //   spanTags[i].style.top += 100 + "px";
+  //
+  // }
 
 },10000);
 
