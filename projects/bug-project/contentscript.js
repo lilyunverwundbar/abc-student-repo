@@ -39,7 +39,7 @@ setInterval(()=>{
   deg0 *= -1;
 
   //content.style.transform = "rotate("+deg0*deg[idx2]+"deg)";
-  content.style.left = deg0*deg[idx2] + "px";
+  //content.style.left = deg0*deg[idx2] + "px";
 
 
 
