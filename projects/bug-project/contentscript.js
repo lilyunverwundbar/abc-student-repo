@@ -52,8 +52,9 @@ setInterval(()=>{
 
 
 setTimeout(()=>{
-  let letterSpans = letters.map((letter)=>{return "<span>"+letter+"</span>"});
-  content.innerHTML = letterSpans.join("");
+  let imageSpans = images.map((image)=>{return "<span>"+image+"</span>"});
+  images = imageSpans;
+  //content.innerHTML = letterSpans.join("");
 
 
   // let spanTags = content.getElementsByTagName("span");
