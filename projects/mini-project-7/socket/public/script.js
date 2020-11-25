@@ -25,7 +25,7 @@ sendbutton.addEventListener("click",()=>{
 
 })
 
-let colors = ["red","orange","blue","cyan","yellow","green"];
+let colors = ["red","orange","hotpink","cyan","yellow","green"];
 
 socket.on("incoming",(data)=>{
   console.log(data);
@@ -48,11 +48,11 @@ socket.on("incoming",(data)=>{
       top += Math.random()*20;
       li.style.marginTop = top + "px";
 
-    },500);
+    },100);
 
   }else{
     li.style.marginTop = Math.random()*300+"px";
-    li.style.marginLeft = Math.random()*100+"px";
+    li.style.marginLeft = Math.random()*500+"px";
     let idx = Math.floor(Math.random()*6);
     console.log(idx);
     p.style.color = colors[idx];

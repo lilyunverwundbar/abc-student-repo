@@ -2,3 +2,8 @@ li{
   list-style: none;
 
 }
+
+body{
+  background-color: darkblue;
+  color: white;
+}
