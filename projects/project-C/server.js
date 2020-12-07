@@ -2,8 +2,8 @@ let express = require('express');
 let app = express();
 let http = require('http').createServer(app);
 let io = require('socket.io')(http);
-const port = 3000;
-//const port = process.env.PORT;
+//const port = 3000;
+const port = process.env.PORT;
 
 let latterns = [];
 
