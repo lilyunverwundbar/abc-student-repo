@@ -1,5 +1,6 @@
 let socket = io();
 let body = document.getElementsByTagName("body")[0];
+let c_lanterns = []
 socket.on("hi",function(latterns){
   console.log(latterns);
   for(let i = 0 ; i < latterns.length; i++){
@@ -30,6 +31,8 @@ socket.on("hi",function(latterns){
     con.appendChild(newlattern);
     body.appendChild(con);
 
+
+
   }
 });
 
@@ -48,8 +51,8 @@ p.style.color = "white";
 p.style.position = "absolute";
 
 let data;
-let left = Math.random()*(screen.width/2);
-let t = Math.random()*(screen.height/6);
+let left = Math.random()*(screen.width-200);
+let t = Math.random()*(screen.height-400);
 let clicked = 0;
 
 
@@ -104,6 +107,12 @@ img.addEventListener("click",()=>{
   img_click += 1;
   light.style.opacity = 1 * (img_click/10);
 
+  if(light.style.opacity == 1.1){
+    light.style.opacity = 0;
+  }else if(light.style.opacity > 1.1){
+    light.style.opacity %= 1;
+  }
+
   console.log("click lattern", img_click);
 
   data.lightsource = light.src;
@@ -126,6 +135,7 @@ container.appendChild(light);
 
 
 socket.on("other",function(data){
+
   let a = data.left;
   let b = data.top;
 
