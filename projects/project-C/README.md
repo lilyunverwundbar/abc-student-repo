@@ -1,5 +1,5 @@
 # Welcome to the Lantern World
-![Animated Cover](projectC.gif)
+![Animated Cover](projectC.gif)<br>
 In this project, I created a space at night where everyone is represented as a lantern. The user will appear on the page when he/she clicks on the "create lantern" button.
 
 ## Description
