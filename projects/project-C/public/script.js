@@ -1,6 +1,6 @@
 let socket = io();
 let body = document.getElementsByTagName("body")[0];
-let c_lanterns = []
+let c_lanterns = [];
 socket.on("hi",function(latterns){
   console.log(latterns);
   for(let i = 0 ; i < latterns.length; i++){
